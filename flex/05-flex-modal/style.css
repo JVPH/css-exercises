@@ -22,17 +22,12 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;  
   padding: 16px;
+  gap:16px;
 }
 
-.container {  
-  padding-left: 16px;
-}
 
-.text,
-.header,
-.continue,
-.cancel {  
-  padding-bottom: 10px;
+.text{  
+  margin-bottom: 14px;
 }
 
 .icon {
@@ -42,9 +37,7 @@ body {
   background: lavender;
   width: 42px;
   height: 42px;
-  border-radius: 50%;
-  
-  
+  border-radius: 50%;  
 }
 
 .close-button {
@@ -68,6 +61,7 @@ body {
 .header {  
   font-weight: bold;
   font-size: 1.25em;
+  margin-bottom: 10px;
 }
 
 button {
